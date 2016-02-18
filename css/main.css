@@ -1,0 +1,54 @@
+#calendar {
+    width: 60%;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+#calendar thead tr td:nth-child(2){
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+#calendar thead tr td button{
+    width: 80px;
+    height: 40px;
+    background-color: #1B61B4;
+    cursor: pointer;
+    color: white;
+    font: 18px Arial;
+    border-radius: 8px;
+    margin-bottom:20px;
+
+}
+
+#calendar thead tr:nth-child(2) td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 4px solid gray;
+    border-top: 1px solid gray;
+
+}
+#calendar thead tr:nth-child(1) td:nth-child(1):hover, #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+
+
+}
+#calendar tbody td {
+    padding: 30px;
+    font-size: 25px;
+}
+
+#calendar tbody td:hover{
+    background-color: lightskyblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+#calendar tbody td.today {
+    background-color: #1B61B4;
+    color: #fff;
+}
